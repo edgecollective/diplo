@@ -541,4 +541,12 @@ Text GLabel 8900 5050 0    50   Input ~ 0
 VIN
 Wire Wire Line
 	8900 5050 8900 5550
+Text GLabel 3300 2650 2    50   Input ~ 0
+A3
+Text GLabel 3300 2550 2    50   Input ~ 0
+A2
+Text GLabel 9450 1900 2    50   Input ~ 0
+D6
+Text GLabel 9450 2000 2    50   Input ~ 0
+D3
 $EndSCHEMATC

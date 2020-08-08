@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 353)
     (zones 0)
     (modules 20)
@@ -822,7 +822,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F2BB914)
-    (at 146.558 129.8575)
+    (at 147 130)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (path /5F30064C)
@@ -842,7 +842,7 @@
   )
 
   (module MountingHole:MountingHole_2.7mm_M2.5 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F2FF7DF)
-    (at 145.6055 67.7545)
+    (at 147 68)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
     (path /5F2F84A7)
@@ -1193,9 +1193,11 @@
     )
   )
 
+  (gr_line (start 150.114 64.1985) (end 151.4475 64.1985) (layer Edge.Cuts) (width 0.05) (tstamp 5F2F18F3))
+  (gr_line (start 151.4475 134.112) (end 150.114 134.112) (layer Edge.Cuts) (width 0.05) (tstamp 5F2F18F2))
+  (gr_line (start 151.4475 64.1985) (end 151.4475 134.112) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 107.8865 64.1985) (end 107.8865 134.112) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 150.114 134.112) (end 107.8865 134.112) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 150.114 64.1985) (end 150.114 134.112) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 107.8865 64.1985) (end 150.114 64.1985) (layer Edge.Cuts) (width 0.05))
 
   (via (at 135.636 109.728) (size 1.5) (drill 0.75) (layers F.Cu B.Cu) (net 0))
